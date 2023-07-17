@@ -1,0 +1,91 @@
+/* NAV BAR */
+
+/* "COMP CONNECTION HUB" font */
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+/* "COMP CONNECTION HUB" font */
+
+#logo{
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 200%;
+}
+#comp-connection{
+    color:#f314b8;
+}
+#hub{
+   color: #057422; 
+}
+#nav-links{
+    margin-left:auto;
+    margin-right: auto;
+}
+.nav-link:hover{
+    color:#0077B6
+
+}
+.navbar{
+    padding: 1em; 
+    font-size: 1em; 
+}
+
+/* END NAV BAR */
+
+
+
+body{
+    height: 100vh;
+}
+h5{
+    font-size: 200%;
+    text-shadow: 2px 2px 10px #292929; 
+}
+h4{
+    font-size: x-large;
+    color: #f314b8;
+}
+#about-div{
+    background-color: #3083d6;
+}
+p{
+    text-align: center;
+    color: #181637;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    /* width: 60vw; */
+}
+.card{
+    border: none;
+}
+img{
+    width: 20vw;
+    height: 20vh;
+    object-fit: cover;
+    opacity: 0.6;
+}
+/* #new-arrivals:hover, #best-sellers:hover, #computers:hover, #accessories:hover {
+        transform: scale(1.2);
+        z-index: 1;
+        transition: transform .5s;
+} */
+
+#new-arrivals, #best-sellers, #computers, #accessories{
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    -ms-transition: all .5s;
+    background-color: #181637;
+}
+
+#new-arrivals:hover, #best-sellers:hover, #computers:hover, #accessories:hover {
+ transform : scale(1.25);
+ -moz-transform : scale(1.25);
+ -webkit-transform : scale(1.25);
+ -o-transform : scale(1.25);
+ -ms-transform : scale(1.25);
+ z-index: 1;
+ cursor: pointer;
+}
+.footer{
+    background-color: #3083d6;
+    margin-top: 100px;
+}
